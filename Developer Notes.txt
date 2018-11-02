@@ -1,3 +1,0 @@
-Need to reference an IBOutlet or create a custom view to make the edges of the devslopes logo rounded.
-
-layer.cornerradius

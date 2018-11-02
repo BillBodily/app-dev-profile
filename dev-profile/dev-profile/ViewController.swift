@@ -10,9 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var devslopesProfileLogo: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        roundDevslopesProfileLogo()
+    }
+    
+    func roundDevslopesProfileLogo() {
+        self.devslopesProfileLogo.layer.masksToBounds = true
+        self.devslopesProfileLogo.layer.cornerRadius = 5.0
     }
 
 }
